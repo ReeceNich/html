@@ -25,3 +25,11 @@ li a {
 .text {
   font-family: veranda, sans-serif;
 }
+
+.content {
+  background-color: white;
+}
+
+img {
+  padding: 5px;
+}
