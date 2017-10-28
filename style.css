@@ -2,7 +2,7 @@ body {
   background-color: lightgray;
 }
 
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,11 +10,11 @@ ul {
   overflow: hidden;
 }
 
-li {
+#navbaritem {
   float: left;
 }
 
-li a {
+#navbaritem a {
   display: block;
   color: white;
   text-align: center;
@@ -22,14 +22,18 @@ li a {
   text-decoration: none;
 }
 
-.text {
+.main {
   font-family: veranda, sans-serif;
 }
 
-.content {
+.block {
   background-color: white;
+  text-indent: 2px;
+  padding: 2px 2px 2px 2px;
+  margin: 4px;
 }
 
-img {
-  padding: 5px;
+video {
+  width: 99%;
+  max-width: 500px;
 }
